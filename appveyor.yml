@@ -16,4 +16,6 @@ on_success:
 - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
 - git add .
 - git commit -m "Updating repository..."
+- git remote add origin git@github.com:OmniSharp/omnisharp-nuget.git
+- git fetch origin
 - git push origin master
