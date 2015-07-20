@@ -49,9 +49,9 @@ _.each(sources, source => {
 
         var path = 'resources/' + _.trim(source, '/').replace('www.', '').replace('https://', '').replace('http://', '').replace(/\/|\:/g, '-');
         try { mkdirSync(path); } catch (e) { }
-        writeFileSync(path + '/_keys.json', JSON.stringify(_.unique(tokens)));
+        writeFileSync(path + '/_keys.json', JSON.stringify(_.unique(_.sortBy(tokens))));
         _.each(items, (item, key) => {
-            writeFileSync(path + '/' + key + '.json', JSON.stringify(item));
+            writeFileSync(path + '/' + key + '.json', JSON.stringify(_.sortBy(item)));
         });
 
         if (sourcesComplete === sources.length) {

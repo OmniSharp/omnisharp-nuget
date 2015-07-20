@@ -45,9 +45,9 @@ _.each(sources, function (source) {
             fs_1.mkdirSync(path);
         }
         catch (e) { }
-        fs_1.writeFileSync(path + '/_keys.json', JSON.stringify(_.unique(tokens)));
+        fs_1.writeFileSync(path + '/_keys.json', JSON.stringify(_.unique(_.sortBy(tokens))));
         _.each(items, function (item, key) {
-            fs_1.writeFileSync(path + '/' + key + '.json', JSON.stringify(item));
+            fs_1.writeFileSync(path + '/' + key + '.json', JSON.stringify(_.sortBy(item)));
         });
         if (sourcesComplete === sources.length) {
             process.exit();
