@@ -1,0 +1,1 @@
+["Bricks.Auth","Bricks.Clients","Bricks.Clients.SignalR","Bricks.Core","Bricks.Core.Impl","Bricks.DAL","Bricks.DAL.EF","Bricks.Helpers","Bricks.Images","Bricks.OWIN","Bricks.OWIN.Impl","Bricks.SMS","Bricks.SMS.Nexmo","Bricks.Sync","Bricks.Toolkit","Bricks.Web","Bricks.WebAPI"]

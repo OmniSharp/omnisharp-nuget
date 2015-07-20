@@ -1,0 +1,1 @@
+["AggregateSource.Content.ExplicitRouting","AggregateSource.Content.ExplicitStateExplicitRouting","AggregateSource.EventStore","AggregateSource.NEventStore","AggregateSource.Testing","AggregateSource.Testing.NUnit","AggregateSource.Testing.Xunit"]

@@ -1,0 +1,1 @@
+["Bolt.Cache","Bolt.Cache.Redis","Bolt.Client","Bolt.CodeProfiler","Bolt.Common.Extensions","Bolt.Core","Bolt.FeatureToggle","Bolt.Generators","Bolt.Helpers","Bolt.Logger","Bolt.Logger.NLog","Bolt.Monad","Bolt.RestClient","Bolt.Serializer","Bolt.Serializer.Json","Bolt.Server","Bolt.SimpleCqrs","Bolt.SimpleCqrs.Ninject","Bolt.Tool","Bolt.Validation"]

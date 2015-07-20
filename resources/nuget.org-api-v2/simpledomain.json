@@ -1,0 +1,1 @@
+["SimpleDomain.Development","SimpleDomain.Development.ProductionCode","SimpleDomain.Development.Specification","SimpleDomain.Development.Test","SimpleDomain.EventStore.CouchbasePersistence","SimpleDomain.EventStore.MongoPersistence","SimpleDomain.EventStore.RavenPersistence"]

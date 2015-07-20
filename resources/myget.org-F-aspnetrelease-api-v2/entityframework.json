@@ -1,0 +1,1 @@
+["EntityFramework.Commands","EntityFramework.Core","EntityFramework.Core.FunctionalTests","EntityFramework.InMemory","EntityFramework.Relational","EntityFramework.Relational.Design","EntityFramework.Relational.FunctionalTests","EntityFramework.Sqlite","EntityFramework.SqlServer","EntityFramework.SqlServer.Design"]

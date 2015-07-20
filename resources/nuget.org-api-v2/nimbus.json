@@ -1,0 +1,1 @@
+["Nimbus.Autofac","Nimbus.InfrastructureContracts","Nimbus.LargeMessages.Azure","Nimbus.LargeMessages.FileSystem","Nimbus.Logger.Log4net","Nimbus.Logger.Serilog","Nimbus.MessageContracts","Nimbus.Ninject","Nimbus.Serializers.Json","Nimbus.Serializers.Protobuf","Nimbus.Unity","Nimbus.Windsor"]

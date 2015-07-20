@@ -1,0 +1,1 @@
+["Brandy.Core","Brandy.EntityFramework","Brandy.Grapes","Brandy.Grapes.FluentNHibernate","Brandy.Grapes.NHibernate","Brandy.NHibernate","Brandy.PublicSuffix","Brandy.Security","Brandy.Security.NHibernate","Brandy.Security.Web","Brandy.Security.Windsor","Brandy.Web","Brandy.Web.Require"]

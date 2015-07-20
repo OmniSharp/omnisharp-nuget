@@ -1,0 +1,1 @@
+["Orleans.StorageProvider.Blob","Orleans.EventSourcing","Orleans.EventSourcing.Couchbase","Orleans.EventSourcing.MongoDB","Orleans.Serialization.Newtonsoft.Json","Orleans.Serialization.RavenDB.Json","Orleans.Storage.Couchbase","Orleans.Storage.MongoDB","Orleans.StorageProvider.Redis"]

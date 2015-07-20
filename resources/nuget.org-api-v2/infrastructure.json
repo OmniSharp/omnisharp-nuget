@@ -1,0 +1,1 @@
+["Infrastructure.Common","Infrastructure.Dapper","Infrastructure.Domain","Infrastructure.NHibernate","Infrastructure.NHibernate.Conventions","Infrastructure.RavenDB","Infrastructure.Web","Infrastructure.CrossCutting"]

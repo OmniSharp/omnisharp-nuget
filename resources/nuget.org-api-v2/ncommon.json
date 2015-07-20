@@ -1,0 +1,1 @@
+["NCommon.ContainerAdapter.Autofac","NCommon.ContainerAdapter.CastleWindsor","NCommon.ContainerAdapter.Ninject","NCommon.ContainerAdapter.StructureMap","NCommon.ContainerAdapter.Unity","NCommon.Db4o","NCommon.EntityFramework","NCommon.LinqToSql","NCommon.Mvc","NCommon.NHibernate"]

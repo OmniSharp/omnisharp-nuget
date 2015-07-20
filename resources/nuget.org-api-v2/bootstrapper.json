@@ -1,0 +1,1 @@
+["Bootstrapper.Autofac","Bootstrapper.AutoMapper","Bootstrapper.Common","Bootstrapper.LightCore.Net4","Bootstrapper.MongoDB","Bootstrapper.Ninject","Bootstrapper.ServiceLocator","Bootstrapper.SimpleInjector","Bootstrapper.StructureMap","Bootstrapper.Unity","Bootstrapper.WindowsImagingComponent","Bootstrapper.WindowsInstaller4_5","Bootstrapper.Windsor"]

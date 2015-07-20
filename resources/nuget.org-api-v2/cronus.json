@@ -1,0 +1,1 @@
+["Cronus.DomainModeling","Cronus.Persistence.Cassandra","Cronus.Persistence.MSSQL","Cronus.Projections.Cassandra","Cronus.Projections.ElasticSearch","Cronus.Serialization.Proteus","Cronus.Serialization.Protoreg","Cronus.Transport.RabbitMQ","Cronus.DomainModelling"]

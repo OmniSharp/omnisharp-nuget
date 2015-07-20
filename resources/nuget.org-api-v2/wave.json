@@ -1,0 +1,1 @@
+["Wave.Core","Wave.IoC.AutoFac","Wave.IoC.CastleWindsor","Wave.IoC.NInject","Wave.IoC.StructureMap","Wave.IoC.Unity","Wave.Logging.CommonsLogging","Wave.Logging.Log4Net","Wave.Logging.NLog","Wave.Serialization.JsonDotNet","Wave.Serialization.ServiceStack","Wave.Serialization.Xml","Wave.ServiceHosting.IIS","Wave.ServiceHosting.TopShelf","Wave.Testing.MSTest"]

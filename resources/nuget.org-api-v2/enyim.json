@@ -1,0 +1,1 @@
+["Enyim.Memcached.Transcoders.Json","Enyim.Caching.Web","Enyim.Memcached.Transcoders.MessagePack.Map","Enyim.Memcached.Transcoders.MessagePack","Enyim.Memcached.Transcoders.ProtocolBuffers"]

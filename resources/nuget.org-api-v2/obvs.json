@@ -1,0 +1,1 @@
+["Obvs.ActiveMQ","Obvs.Logging.Log4Net","Obvs.Logging.NLog","Obvs.NetMQ","Obvs.RabbitMQ","Obvs.Serialization.Json","Obvs.Serialization.MessagePack","Obvs.Serialization.ProtoBuf","Obvs.Serialization.Xml"]

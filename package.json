@@ -1,0 +1,14 @@
+{
+  "name": "omnisharp-nuget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "load-feeds.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  }
+}

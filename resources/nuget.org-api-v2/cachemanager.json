@@ -1,0 +1,1 @@
+["CacheManager.AppFabricCache","CacheManager.Core","CacheManager.Couchbase","CacheManager.Memcached","CacheManager.StackExchange.Redis","CacheManager.SystemRuntimeCaching","CacheManager.Web","CacheManager.WindowsAzureCaching"]

@@ -1,0 +1,1 @@
+["OrigoDB.BlackBox","OrigoDB.Core","OrigoDB.EventStore","OrigoDB.JsonNetFormatter","OrigoDB.Log4Net","OrigoDB.ProtoBuf","OrigoDB.Models.Redis","OrigoDB.SqlStorage"]

@@ -1,0 +1,1 @@
+["Skahal.Infrastructure.Framework","Skahal.Infrastructure.Logging.Log4net","Skahal.Infrastructure.Repositories.DropBox","Skahal.Infrastructure.Repositories.EntityFramework","Skahal.Infrastructure.Repositories.GData","Skahal.Infrastructure.Repositories.MongoDB"]
