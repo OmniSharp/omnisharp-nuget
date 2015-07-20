@@ -11,6 +11,8 @@ build_script:
 - node load-feeds.js
 on_success:
 - git config --global credential.helper store
+- git config user.email "david.driscoll@gmail.com"
+- git config user.name "David Driscoll"
 - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
 - git add .
 - git commit -m "Updating repository..."
