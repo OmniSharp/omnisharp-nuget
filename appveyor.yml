@@ -1,0 +1,19 @@
+version: 1.0.{build}
+environment:
+  access_token:
+    secure: uKzWL2r0ujyYqzEyuSJcyhyIMD2maX8Bz9h8qUQAgFVsP2TI6TX/vKM8HDOQkS/q
+install:
+- ps: >-
+    Install-Product node 0.11
+    npm install
+build_script:
+- node --version
+- npm --version
+- node load-feeds.js
+on_success:
+- ps: >-
+    git config --global credential.helper store
+    Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+    git add .
+    git commit -m "Updating repository..."
+    git push origin master
