@@ -29,6 +29,7 @@ _.each(sources, source => {
 
     rl.on('line', (input: string) => {
         var [name, version] = input.split(' ');
+        console.log(source, ' <==> ', name);
         var key;
         if (name.indexOf('.') > -1) {
             var nameTokens = name.split('.');
