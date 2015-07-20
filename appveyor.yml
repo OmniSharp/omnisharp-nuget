@@ -5,6 +5,7 @@ environment:
 install:
 - ps: Install-Product node 0.11
 - npm install
+- git checkout master
 build_script:
 - node --version
 - npm --version
