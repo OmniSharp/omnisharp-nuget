@@ -92,7 +92,7 @@ _.each(sources, function (source) {
             _.each(obj, function (value, key) {
                 obj[key] = _(value).unique().sortBy().value();
             });
-            fs_1.writeFileSync(path_1.join(path, name + '.json'), JSON.stringify(obj));
+            fs_1.writeFileSync(path_1.join(path, name.toLowerCase() + '.json'), JSON.stringify(obj));
         });
         if (sourcesComplete === sources.length) {
             process.exit();

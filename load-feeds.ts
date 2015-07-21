@@ -102,8 +102,7 @@ _.each(sources, source => {
                 obj[key] = _(value).unique().sortBy().value();
             });
 
-
-            writeFileSync(join(path, name + '.json'), JSON.stringify(obj));
+            writeFileSync(join(path, name.toLowerCase() + '.json'), JSON.stringify(obj));
         });
 
         if (sourcesComplete === sources.length) {
