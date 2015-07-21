@@ -3,7 +3,7 @@ environment:
   access_token:
     secure: uKzWL2r0ujyYqzEyuSJcyhyIMD2maX8Bz9h8qUQAgFVsP2TI6TX/vKM8HDOQkS/q
 install:
-- ps: Install-Product node 0.11
+- ps: Install-Product node 0.12
 - npm install
 - git checkout master
 build_script:
@@ -17,6 +17,4 @@ on_success:
 - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
 - git add .
 - git commit -m "Updating repository..."
-- git remote add origin git@github.com:OmniSharp/omnisharp-nuget.git
-- git fetch origin
 - git push origin master
