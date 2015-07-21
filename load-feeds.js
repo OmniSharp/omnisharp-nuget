@@ -74,16 +74,16 @@ _.each(sources, function (source) {
                         objectKeys.push(value + '.');
                     }
                     else {
-                        if (!obj[key.toLowerCase()])
-                            obj[key.toLowerCase()] = [];
-                        obj[key.toLowerCase()].push(value);
+                        if (!obj[key])
+                            obj[key] = [];
+                        obj[key].push(value);
                         if (key.indexOf('.') > -1) {
                             var previousKeys = key.split('.');
                             var previousValue = previousKeys[previousKeys.length - 1] + '.';
                             var previousKey = previousKeys.slice(0, previousKeys.length - 1).join('.');
-                            if (!obj[previousKey.toLowerCase()])
-                                obj[previousKey.toLowerCase()] = [];
-                            obj[previousKey.toLowerCase()].push(previousValue);
+                            if (!obj[previousKey])
+                                obj[previousKey] = [];
+                            obj[previousKey].push(previousValue);
                         }
                     }
                 });
