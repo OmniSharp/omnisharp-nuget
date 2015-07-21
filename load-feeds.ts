@@ -87,7 +87,7 @@ _.each(sources, source => {
 
                         if (key.indexOf('.') > -1) {
                             var previousKeys = key.split('.');
-                            var previousValue = previousKeys[key.length - 1] + '.';
+                            var previousValue = previousKeys[previousKeys.length - 1] + '.';
                             var previousKey = previousKeys.slice(0, previousKeys.length - 1).join('.');
                             if (!obj[previousKey]) obj[previousKey] = [];
                             obj[previousKey].push(previousValue);
@@ -96,7 +96,7 @@ _.each(sources, source => {
                 });
             });
 
-            obj['_keys'] = objectKeys;
+            obj['_keys'] = _(objectKeys).filter(x => !_.contains(blacklist, x)).value();
 
             _.each(obj, (value, key) => {
                 obj[key] = _(value).unique().sortBy().value();

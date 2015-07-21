@@ -79,7 +79,7 @@ _.each(sources, function (source) {
                         obj[key].push(value);
                         if (key.indexOf('.') > -1) {
                             var previousKeys = key.split('.');
-                            var previousValue = previousKeys[key.length - 1] + '.';
+                            var previousValue = previousKeys[previousKeys.length - 1] + '.';
                             var previousKey = previousKeys.slice(0, previousKeys.length - 1).join('.');
                             if (!obj[previousKey])
                                 obj[previousKey] = [];
@@ -88,7 +88,7 @@ _.each(sources, function (source) {
                     }
                 });
             });
-            obj['_keys'] = objectKeys;
+            obj['_keys'] = _(objectKeys).filter(function (x) { return !_.contains(blacklist, x); }).value();
             _.each(obj, function (value, key) {
                 obj[key] = _(value).unique().sortBy().value();
             });
