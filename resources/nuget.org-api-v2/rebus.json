@@ -1,1 +1,0 @@
-["Rebus.Async","Rebus.Autofac","Rebus.AzureServiceBus","Rebus.Castle.Windsor","Rebus.DryIoc","Rebus.IdempotentSagas","Rebus.Log4Net","Rebus.MongoDb","Rebus.MsmqLoadBalancer","Rebus.NewtonsoftJson","Rebus.Ninject","Rebus.NLog","Rebus.PostgreSql","Rebus.RabbitMQ","Rebus.RavenDb","Rebus.Extensions","Rebus.Serilog","Rebus.StructureMap","Rebus.Unity"]

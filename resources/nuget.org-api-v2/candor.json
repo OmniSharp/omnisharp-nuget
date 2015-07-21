@@ -1,1 +1,0 @@
-["Candor.Core","Candor.Security","Candor.Security.AzureStorageProvider","Candor.Security.SqlProvider","Candor.Tasks.ServiceProcess","Candor.Web.Mvc","Candor.Web.Mvc.ErrorHandler","Candor.Web.Mvc.Security","Candor.WindowsAzure","Candor.WindowsAzure.Logging.Common","Candor.WindowsAzure.Tasks"]

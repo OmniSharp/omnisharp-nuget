@@ -1,1 +1,0 @@
-["HighIronRanch.SimpleCqrs.StructureMap","HighIronRanch.Azure.ServiceBus.Contracts","HighIronRanch.Azure.TableStorage","HighIronRanch.Core","HighIronRanch.Cqrs","HighIronRanch.Cqrs.EventStore.MongoDb","HighIronRanch.DataMigrations","HighIronRanch.IoC.StructureMap","HighIronRanch.MongoDb","HighIronRanch.SimpleCqrs"]

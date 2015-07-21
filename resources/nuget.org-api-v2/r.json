@@ -1,1 +1,0 @@
-["R.MessageBus","R.MessageBus.Client.RabbitMQ","R.MessageBus.Container.Ninject","R.MessageBus.Container.StructureMap","R.MessageBus.Interfaces","R.MessageBus.Persistance.MongoDb","R.NET","R.NET.Community","R.NET.Community.FSharp","R.NET.Community.Graphics","R.Scheduler","R.Scheduler.AssemblyPlugin","R.Scheduler.Contracts","R.WPF.MVVM"]

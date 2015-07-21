@@ -1,1 +1,0 @@
-["Nu.Logger.LogViewer","Nu.Common","Nu.Common.Gui","Nu.Common.Net","Nu.Common.Service","Nu.Controls.WinForms","Nu.Fsm","Nu.Io.Base","Nu.Io.Ni","Nu.Io.Ni.Ui","Nu.Io.Serial","Nu.Io.Serial.Ui","Nu.Io.Simulator","Nu.Logger","Nu.Logger.LogViewerUI","Nu.Logger.Orm","Nu.Logger.PgsqlOrm","Nu.Logger.SqliteOrm"]

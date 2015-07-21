@@ -1,1 +1,0 @@
-["Apworks.Bus.DirectBus","Apworks.Bus.EventAggregator","Apworks.Bus.MSMQ","Apworks.Events.Storage.General","Apworks.Events.Storage.MySql","Apworks.ObjectContainers.Unity","Apworks.Repositories.EntityFramework","Apworks.Repositories.MongoDB","Apworks.Repositories.NHibernate","Apworks.Storage.General","Apworks.Storage.MySql"]

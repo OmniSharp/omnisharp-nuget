@@ -1,1 +1,0 @@
-["Forge.Base","Forge.DatabaseManagement","Forge.DatabaseManagement.SQLite","Forge.DatabaseManagement.SqlServer2008","Forge.DatabaseManagement.SqlServerCe40","Forge.Extensions","Forge.ORM.NHibernateExtension","Forge.Persistence","Forge.Persistence.Formatters.JsonNet","Forge.Persistence.StorageProviders.HibernateStorageProvider","Forge.WindowsServiceControl"]

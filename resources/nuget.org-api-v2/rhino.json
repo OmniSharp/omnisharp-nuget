@@ -1,1 +1,0 @@
-["Rhino.Licensing","Rhino.Security","Rhino.Commons","Rhino.PersistentHashTable","Rhino.Queues","Rhino.ServiceBus","Rhino.ServiceBus.Autofac","Rhino.ServiceBus.Castle","Rhino.ServiceBus.Host","Rhino.ServiceBus.References","Rhino.ServiceBus.RhinoQueues","Rhino.ServiceBus.Spring","Rhino.ServiceBus.SqlSubscriptionStorage","Rhino.ServiceBus.StructureMap","Rhino.ServiceBus.Unity"]

@@ -1,1 +1,0 @@
-["EventFlow.EventStores.EventStore","EventFlow.Autofac","EventFlow.EventStores.MsSql","EventFlow.MsSql","EventFlow.Owin","EventFlow.ReadStores.MsSql"]

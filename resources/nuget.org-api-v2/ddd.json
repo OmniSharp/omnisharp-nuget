@@ -1,1 +1,0 @@
-["DDD.Light.AggregateBus.Contracts","DDD.Light.AggregateBus.InProcess","DDD.Light.AggregateCache.Contracts","DDD.Light.AggregateCache.InMemory","DDD.Light.CQRS.Contracts","DDD.Light.CQRS.InProcess","DDD.Light.EventStore","DDD.Light.EventStore.Contracts","DDD.Light.EventStore.MongoDB","DDD.Light.Repo.Contracts","DDD.Light.Repo.InMemory","DDD.Light.Repo.MongoDB"]

@@ -1,1 +1,0 @@
-["SiGyl.knockout.rx","SiGyl.Opc.Base","SiGyl.Opc.Controllers","SiGyl.Opc.Types","SiGyl.Opc.Web","SiGyl.EF.Context","SiGyl.EF.Context.Changes.SignalR","SiGyl.Opc.DeviceInterfacers.OpcLabs","SiGyl.Opc.DeviceIntefacers.Local","SiGyl.Opc.Hubs","SiGyl.Opc.Management","SiGyl.Opc.SelfHost","SiGyl.Opc.SignalR","SiGyl.Opc.XSockets"]

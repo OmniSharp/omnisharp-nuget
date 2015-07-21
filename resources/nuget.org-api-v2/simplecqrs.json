@@ -1,1 +1,0 @@
-["SimpleCqrs.EventStore.AzureTable","SimpleCqrs.EventStore.File","SimpleCqrs.EventStore.MongoDb","SimpleCqrs.EventStore.SqlServer","SimpleCqrs.NServiceBus","SimpleCqrs.Rhino.Servicebus","SimpleCqrs.StructureMap","SimpleCqrs.Unity","SimpleCqrs.Utilities"]

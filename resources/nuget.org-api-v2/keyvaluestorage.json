@@ -1,1 +1,0 @@
-["KeyValueStorage.AzureTable","KeyValueStorage.Core","KeyValueStorage.Couchbase","KeyValueStorage.FSText","KeyValueStorage.Oracle","KeyValueStorage.Redis","KeyValueStorage.SqlServer","KeyValueStorage.Tools"]
