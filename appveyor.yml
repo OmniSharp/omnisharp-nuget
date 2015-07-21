@@ -5,7 +5,7 @@ environment:
 install:
 - ps: Install-Product node 0.12
 - npm install
-- git checkout master
+- git checkout --orphan resources -f
 build_script:
 - node --version
 - npm --version
@@ -15,6 +15,7 @@ on_success:
 - git config user.email "david.driscoll@gmail.com"
 - git config user.name "David Driscoll"
 - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
-- git add .
-- git commit -m "Updating repository..."
-- git push origin master
+- git reset
+- git add resources/
+- git commit -m "Updating resources from build..."
+- git push origin resources -f
