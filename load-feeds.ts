@@ -18,6 +18,8 @@ var blacklist = ["0xdeafcafe.","1","1.","1BrokerApi.","2.","24Rental.","2GIS","2
 
 var sourcesComplete = 0;
 
+try { mkdirSync("resources"); } catch (e) { }
+
 _.each(sources, source => {
     var items: { [key: string]: string[] } = {};
     var tokens = [];

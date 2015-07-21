@@ -13,6 +13,10 @@ var sources = [
 ];
 var blacklist = ["0xdeafcafe.", "1", "1.", "1BrokerApi.", "2.", "24Rental.", "2GIS", "2GIS.", "2a486f72", "2a486f72.", "32feet", "32feet.", "40-System", "40-System.", "5.", "51Degrees", "51Degrees.", "635177104038094647UploadAndDownLoadPackageWithDotCsNames.", "635189118849445599UploadAndDownLoadPackageWithDotCsNames.", "635200371633764073UploadAndDownLoadPackageWithDotCsNames.", "635219386086358870UploadAndDownLoadPackageWithDotCsNames.", "635242692969900082UploadAndDownLoadPackageWithDotCsNames.", "635273019367610056UploadAndDownLoadPackageWithDotCsNames.", "635278242898664554UploadAndDownLoadPackageWithDotCsNames.", "635279786726963622UploadAndDownLoadPackageWithDotCsNames.", "635279800932883774UploadAndDownLoadPackageWithDotCsNames.", "635285958208507909UploadAndDownLoadPackageWithDotCsNames.", "635285987465939176UploadAndDownLoadPackageWithDotCsNames.", "635297197776860494UploadAndDownLoadPackageWithDotCsNames.", "635297206106180458UploadAndDownLoadPackageWithDotCsNames.", "635309301479019996UploadAndDownLoadPackageWithDotCsNames.", "AA", "AA.", "ABB", "ABB.", "ABBYY.", "ABC", "ABC."];
 var sourcesComplete = 0;
+try {
+    fs_1.mkdirSync("resources");
+}
+catch (e) { }
 _.each(sources, function (source) {
     var items = {};
     var tokens = [];
