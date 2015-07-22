@@ -17,5 +17,6 @@ on_success:
 - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
 - git reset
 - git add resources/
+- git add frameworks/
 - git commit -m "Updating resources from build..."
 - git push origin resources -f
