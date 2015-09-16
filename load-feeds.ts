@@ -14,14 +14,16 @@ var sources = [
     'https://www.myget.org/F/nugetbuild/api/v2',
 ];
 
-/* https://www.myget.org/F/feedname/api/v3/index.json */
+var mirrors = {
+    'https://www.myget.org/F/aspnetmaster/api/v2': 'https://www.myget.org/F/aspnetmaster/api/v3/index.json',
+    'https://www.myget.org/F/aspnetrelease/api/v2': 'https://www.myget.org/F/aspnetrelease/api/v3/index.json',
+    'https://nuget.org/api/v2/': 'https://api.nuget.org/v3/index.json',
+    'https://www.myget.org/F/omnisharp/api/v2': 'https://www.myget.org/F/omnisharp/api/v3/index.json',
+    'https://www.myget.org/F/xunit/api/v2': 'https://www.myget.org/F/xunit/api/v3/index.json',
+    'https://www.myget.org/F/nugetbuild/api/v2': 'https://www.myget.org/F/nugetbuild/api/v3/index.json',
+};
+
 var sourcesv3 = [
-    'https://www.myget.org/F/aspnetmaster/api/v3/index.json',
-    'https://www.myget.org/F/aspnetrelease/api/v3/index.json',
-    'https://api.nuget.org/v3/index.json',
-    'https://www.myget.org/F/omnisharp/api/v3/index.json',
-    'https://www.myget.org/F/xunit/api/v3/index.json',
-    'https://www.myget.org/F/nugetbuild/api/v3/index.json',
 ];
 
 var blacklist = ["0xdeafcafe.", "1", "1.", "1BrokerApi.", "2.", "24Rental.", "2GIS", "2GIS.", "2a486f72", "2a486f72.", "32feet", "32feet.", "40-System", "40-System.", "5.", "51Degrees", "51Degrees.", "635177104038094647UploadAndDownLoadPackageWithDotCsNames.", "635189118849445599UploadAndDownLoadPackageWithDotCsNames.", "635200371633764073UploadAndDownLoadPackageWithDotCsNames.", "635219386086358870UploadAndDownLoadPackageWithDotCsNames.", "635242692969900082UploadAndDownLoadPackageWithDotCsNames.", "635273019367610056UploadAndDownLoadPackageWithDotCsNames.", "635278242898664554UploadAndDownLoadPackageWithDotCsNames.", "635279786726963622UploadAndDownLoadPackageWithDotCsNames.", "635279800932883774UploadAndDownLoadPackageWithDotCsNames.", "635285958208507909UploadAndDownLoadPackageWithDotCsNames.", "635285987465939176UploadAndDownLoadPackageWithDotCsNames.", "635297197776860494UploadAndDownLoadPackageWithDotCsNames.", "635297206106180458UploadAndDownLoadPackageWithDotCsNames.", "635309301479019996UploadAndDownLoadPackageWithDotCsNames.", "AA", "AA.", "ABB", "ABB.", "ABBYY.", "ABC", "ABC."]
@@ -31,11 +33,13 @@ var sourcesComplete = 0;
 try { mkdirSync("resources"); } catch (e) { }
 
 function run(nuget: string, sources: string[]) {
+    if (sources.length === 0) return Promise.resolve();
     return new Promise(function(resolve) {
         _.each(sources, source => {
             var items: { [key: string]: string[] } = {};
             var tokens = [];
             var args = ['list', '-source'].concat([source]).concat(['-pre']);
+            var mirror = mirrors[source];
 
             var child = spawn(nuget, args, { stdio: 'pipe' });
             var rl = readline.createInterface({
@@ -68,6 +72,11 @@ function run(nuget: string, sources: string[]) {
                 var path = 'resources/' + _.trim(source, '/').replace('www.', '').replace('https://', '').replace('http://', '').replace(/\/|\:/g, '-');
                 try { mkdirSync(path); } catch (e) { }
 
+                if (mirror) {
+                    var mirrorPath = 'resources/' + _.trim(mirror, '/').replace('www.', '').replace('https://', '').replace('http://', '').replace(/\/|\:/g, '-');
+                    try { mkdirSync(mirrorPath); } catch (e) { }
+                }
+
                 var dotTokens = _(tokens).filter(z => _.endsWith(z, '.')).value();
 
                 tokens = _(tokens)
@@ -81,6 +90,7 @@ function run(nuget: string, sources: string[]) {
                 tokens = _(tokens.concat(dotTokens)).unique().sortBy().value();
 
                 writeFileSync(join(path, '_keys.json'), JSON.stringify(tokens));
+                mirrorPath && writeFileSync(join(mirrorPath, '_keys.json'), JSON.stringify(tokens));
                 _.each(items, (values, name) => {
                     var obj: { [key: string]: string[] } = {};
                     var objectKeys = [];
@@ -115,6 +125,7 @@ function run(nuget: string, sources: string[]) {
                     });
 
                     writeFileSync(join(path, name.toLowerCase() + '.json'), JSON.stringify(obj));
+                    mirrorPath && writeFileSync(join(mirrorPath, name.toLowerCase() + '.json'), JSON.stringify(obj));
                 });
 
                 if (sourcesComplete === sources.length) {
@@ -125,6 +136,8 @@ function run(nuget: string, sources: string[]) {
     });
 }
 
-run('nuget.exe', sources).then(() => run('nuget3.exe', sourcesv3)).then(() => process.exit());
+run('nuget.exe', sources)
+    .then(() => run('nuget3.exe', sourcesv3))
+    .then(() => process.exit());
 
 process.stdin.resume();
