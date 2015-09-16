@@ -38,7 +38,6 @@ function run(nuget, sources) {
             });
             rl.on('line', function (input) {
                 var _a = input.split(' '), name = _a[0], version = _a[1];
-                console.log(source, ' <==> ', name);
                 var key;
                 if (name.indexOf('.') > -1) {
                     var nameTokens = name.split('.');
