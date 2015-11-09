@@ -62,7 +62,7 @@ function run(nuget: string, sources: string[]) {
 
                     if (!items[key]) items[key] = [];
                     if (!_.contains(items[key], name))
-                        items[key].push(name);
+                        items[key] && items[key].push(name);
                 }
             });
 
