@@ -60,9 +60,13 @@ function run(nuget: string, sources: string[]) {
                 if (key) {
                     tokens.push(key + '.');
 
-                    if (!items[key]) items[key] = [];
-                    if (!_.contains(items[key], name))
-                        items[key] && items[key].push(name);
+                    if (!items[key]) {
+                        items[key] = [];
+                    }
+
+                    if (!_.contains(items[key], name)) {
+                        items[key].push(name);
+                    }
                 }
             });
 
@@ -98,8 +102,8 @@ function run(nuget: string, sources: string[]) {
                         var keys = value.split('.');
                         keys = keys.slice(1);
 
-                        var items = keys.map((x, i) => ({ key: keys.slice(0, i).join('.'), value: keys[i] }));
-                        _.each(items, item => {
+                        var innerItems = keys.map((x, i) => ({ key: keys.slice(0, i).join('.'), value: keys[i] }));
+                        _.each(innerItems, item => {
                             var {key, value} = item;
                             if (key.length === 0) {
                                 objectKeys.push(value + '.');

@@ -52,10 +52,12 @@ function run(nuget, sources) {
                 }
                 if (key) {
                     tokens.push(key + '.');
-                    if (!items[key])
+                    if (!items[key]) {
                         items[key] = [];
-                    if (!_.contains(items[key], name))
-                        items[key] && items[key].push(name);
+                    }
+                    if (!_.contains(items[key], name)) {
+                        items[key].push(name);
+                    }
                 }
             });
             child.on('close', function () {
@@ -89,8 +91,8 @@ function run(nuget, sources) {
                     _.each(values, function (value) {
                         var keys = value.split('.');
                         keys = keys.slice(1);
-                        var items = keys.map(function (x, i) { return ({ key: keys.slice(0, i).join('.'), value: keys[i] }); });
-                        _.each(items, function (item) {
+                        var innerItems = keys.map(function (x, i) { return ({ key: keys.slice(0, i).join('.'), value: keys[i] }); });
+                        _.each(innerItems, function (item) {
                             var key = item.key, value = item.value;
                             if (key.length === 0) {
                                 objectKeys.push(value + '.');
