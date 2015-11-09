@@ -56,6 +56,7 @@ function run(nuget, sources) {
                         items[key] = [];
                     }
                     if (!_.contains(items[key], name)) {
+                        console.log("key: " + key + "   name: " + name);
                         items[key].push(name);
                     }
                 }
