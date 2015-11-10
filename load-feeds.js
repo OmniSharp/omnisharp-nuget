@@ -52,6 +52,7 @@ function run(nuget, sources) {
                 }
                 if (key) {
                     tokens.push(key + '.');
+                    key = "_" + key + "_";
                     if (!items[key]) {
                         items[key] = [];
                     }
@@ -87,6 +88,7 @@ function run(nuget, sources) {
                 fs_1.writeFileSync(path_1.join(path, '_keys.json'), JSON.stringify(tokens));
                 mirrorPath && fs_1.writeFileSync(path_1.join(mirrorPath, '_keys.json'), JSON.stringify(tokens));
                 _.each(items, function (values, name) {
+                    name = _.trim(name, '_');
                     var obj = {};
                     var objectKeys = [];
                     _.each(values, function (value) {
