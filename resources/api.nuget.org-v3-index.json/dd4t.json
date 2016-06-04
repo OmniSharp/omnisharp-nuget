@@ -1,0 +1,1 @@
+{"DI":["Autofac","Ninject","Unity"],"Providers":["Rest","SDLTridion2011sp1","SDLTridion2013","SDLTridion2013sp1","SDLWeb8","SDLWeb8."],"Providers.SDLWeb8":["CIL"],"RestService":["WebApi"],"Templates":["Base"],"_keys":["Core.","DI.","MVC4.","MVC5.","Model.","Providers.","RestService.","Templates.","XPM."]}

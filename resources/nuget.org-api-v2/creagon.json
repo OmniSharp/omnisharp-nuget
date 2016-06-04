@@ -1,0 +1,1 @@
+{"BL":["Core","Interfaces","Notifications","Notifications."],"BL.Notifications":["CommonMailer","Interfaces","NexmoSmsSender"],"DAL":["Common","EF"],"_keys":["BL.","DAL."]}

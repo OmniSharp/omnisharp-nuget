@@ -1,0 +1,1 @@
+{"Common":["Caching","Caching.","Core","Infrastructure","ServiceLocator","ServiceLocator.","Web","Web."],"Common.Web":["Mvc"],"Common.Caching":["Memcached","Memcached."],"Common.Caching.Memcached":["CommonLogging"],"Common.ServiceLocator":["Castle"],"_keys":["Common."]}

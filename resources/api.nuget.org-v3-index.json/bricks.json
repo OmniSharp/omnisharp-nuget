@@ -1,0 +1,1 @@
+{"Clients":["SignalR"],"Core":["Impl"],"DAL":["EF"],"OWIN":["Impl"],"SMS":["Nexmo"],"_keys":["Auth.","Clients.","Core.","DAL.","EF.","Helpers.","Images.","OWIN.","SMS.","Sync.","Toolkit.","Web.","WebAPI."]}

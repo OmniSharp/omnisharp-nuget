@@ -1,0 +1,1 @@
+{"Bus":["DirectBus","EventAggregator","MSMQ"],"Events":["Storage","Storage."],"Events.Storage":["General","MySql"],"ObjectContainers":["Unity"],"Repositories":["EntityFramework","MongoDB","NHibernate"],"Storage":["General","MySql"],"_keys":["Bus.","Events.","ObjectContainers.","Repositories.","Storage."]}

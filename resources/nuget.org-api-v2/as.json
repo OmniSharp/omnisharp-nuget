@@ -1,0 +1,1 @@
+{"Sdk":["Core","Core.","StaticFace","StaticFace."],"Sdk.Core":["Model"],"Sdk.StaticFace":["Detector","Identifier","Model","Utils"],"Video":["Core","Sources","Sources."],"Video.Sources":["AForge","Basler","OpenCv"],"_keys":["ExternalSystem.","GeometryCore.","Sdk.","Video."]}

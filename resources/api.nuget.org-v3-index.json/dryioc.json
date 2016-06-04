@@ -1,0 +1,1 @@
+{"CommonServiceLocator":["dll"],"Dnx":["DependencyInjection"],"MefAttributedModel":["Dnx","dll"],"Mvc":["dll"],"Owin":["dll"],"SignalR":["dll"],"Web":["dll"],"WebApi":["Owin","Owin.","dll"],"WebApi.Owin":["dll"],"_keys":["CommonServiceLocator.","Dnx.","MefAttributedModel.","Mvc.","Owin.","SignalR.","Web.","WebApi.","Zero.","dll."]}

@@ -1,0 +1,1 @@
+{"jQuery":["AutoAsync"],"Security":["AzureStorageProvider","SqlProvider"],"Tasks":["ServiceProcess"],"Web":["Mvc","Mvc."],"Web.Mvc":["ErrorHandler","Security"],"WindowsAzure":["Logging","Logging.","Tasks"],"WindowsAzure.Logging":["Common"],"_keys":["Core.","Security.","Tasks.","Web.","WindowsAzure.","jQuery."]}

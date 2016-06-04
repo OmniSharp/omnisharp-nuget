@@ -1,0 +1,1 @@
+{"Data":["EntityFramework","InMemory","Unity"],"Mapping":["AutoMapper"],"Validation":["Fluent","Unity"],"_keys":["Data.","Domain.","Dto.","Mapping.","Mvc.","Paging.","Service.","Validation."]}

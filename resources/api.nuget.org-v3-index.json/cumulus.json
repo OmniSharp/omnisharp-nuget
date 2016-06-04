@@ -1,0 +1,1 @@
+{"LargeMessages":["Azure"],"Logger":["Log4net","NLog","Serilog"],"Serializers":["Json","Protobuf"],"_keys":["Autofac.","InfrastructureContracts.","LargeMessages.","Logger.","MessageContracts.","Ninject.","Serializers.","Structuremap.","Unity.","Windsor."]}

@@ -1,0 +1,1 @@
+{"Boot":["Lib"],"Logging":["Lib","MigrationHelper","MigrationHelper.","log4net"],"Logging.MigrationHelper":["log4net"],"MVVM":["CancelOnEqualityModule","Converter","Injection","Interaction","Lib","LoggingModule","ValidationExceptionsModule","ViewModelAwareness"],"Utils":["Lib"],"_keys":["Boot.","Logging.","MVVM.","Utils."]}

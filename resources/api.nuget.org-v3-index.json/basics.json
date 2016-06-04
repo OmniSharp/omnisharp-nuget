@@ -1,0 +1,1 @@
+{"AspNet":["WebApi"],"Containers":["Autofac","ServiceLocator"],"Data":["Dapper","Dapper."],"Data.Dapper":["SqlServer"],"Testing":["Xunit"],"_keys":["AspNet.","Containers.","Data.","Domain.","NET.","Testing."]}

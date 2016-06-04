@@ -1,0 +1,1 @@
+{"net":["common","contracts","contracts.","modules","modules.","tests","tests.","weblauncher"],"net.contracts":["filesystem","litedbclient","redisclient","web","webapi","zip"],"net.modules":["angular","dotnetzip","litedb","physicalfilesystem","servicestack","servicestack.","web","webapi"],"net.modules.servicestack":["redis"],"net.tests":["framework"],"_keys":["net."]}

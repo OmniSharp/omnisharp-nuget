@@ -1,0 +1,1 @@
+{"AtomicAction":["Redis"],"Persistence":["Cassandra","MSSQL"],"Projections":["Cassandra","ElasticSearch"],"Serialization":["NewtonsoftJson","Proteus","Protoreg"],"Transport":["RabbitMQ"],"_keys":["AtomicAction.","DomainModeling.","Persistence.","Projections.","Serialization.","Transport."]}

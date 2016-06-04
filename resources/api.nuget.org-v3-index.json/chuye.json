@@ -1,0 +1,1 @@
+{"Caching":["Memcached","Redis"],"Persistent":["Mongo","NHibernate"],"_keys":["Caching.","EventBus.","Kafka.","Persistent."]}

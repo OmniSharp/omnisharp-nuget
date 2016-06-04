@@ -1,0 +1,1 @@
+{"assert":["source"],"extensibility":["core","execution"],"extensions":["uitest"],"runner":["console","dnx","msbuild","reporters","utility","utility.","visualstudio"],"runner.utility":["visualstudio","visualstudio."],"runner.utility.visualstudio":["win8"],"_keys":["abstractions.","assert.","core.","extensibility.","extensions.","runner.","runners."]}

@@ -1,0 +1,1 @@
+{"CodeServices":["Clock","Common","Compression","Compression.","ContentManagement","MailSender","Security","Serialization","Serialization."],"CodeServices.Compression":["LZ4","Snappy"],"CodeServices.Serialization":["Json","MsgPack","Protobuf","Xml","Yaml"],"_keys":["CodeServices."]}

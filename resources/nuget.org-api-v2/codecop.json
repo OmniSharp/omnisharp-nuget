@@ -1,0 +1,1 @@
+{"PostSharp":["AutoAspectResolver"],"Setup":["Autofac","Castle","Castle.","Ninject","StructureMap","Unity"],"Setup.Castle":["Windsor"],"_keys":["PostSharp.","Setup."]}

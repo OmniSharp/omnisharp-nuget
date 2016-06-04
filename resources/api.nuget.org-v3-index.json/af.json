@@ -1,0 +1,1 @@
+{"Business":["Logic","Model"],"Data":["EntityFramework"],"IoC":["Unity"],"Logging":["NLog"],"Security":["OAuth","WebApi"],"Services":["WebApi"],"_keys":["Business.","DB.","Data.","IoC.","Logging.","Security.","Services."]}

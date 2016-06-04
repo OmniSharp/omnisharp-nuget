@@ -1,0 +1,1 @@
+{"Cqrs":["InMemory"],"Data":["Finder","Repository"],"Diagnostic":["NLog"],"ServiceLocator":["StructureMap"],"_keys":["Cqrs.","Data.","Diagnostic.","ServiceLocator."]}

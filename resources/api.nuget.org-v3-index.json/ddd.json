@@ -1,0 +1,1 @@
+{"Light":["AggregateBus","AggregateBus.","AggregateCache","AggregateCache.","CQRS","CQRS.","EventStore","EventStore.","Repo","Repo."],"Light.AggregateBus":["Contracts","InProcess"],"Light.AggregateCache":["Contracts","InMemory"],"Light.CQRS":["Contracts","InProcess"],"Light.EventStore":["Contracts","MongoDB"],"Light.Repo":["Contracts","InMemory","MongoDB"],"_keys":["Light."]}

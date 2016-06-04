@@ -1,0 +1,1 @@
+{"Adapters":["Ninject","SimpleInjector","Unity"],"Extensions":["Wcf","Wcf."],"Extensions.Wcf":["Ninject","SimpleInjector","Unity"],"_keys":["Adapters.","Extensions."]}

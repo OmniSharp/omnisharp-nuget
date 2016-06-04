@@ -1,0 +1,1 @@
+{"Data":["CRUD","CRUD."],"Data.CRUD":["Common","Desktop"],"Ioc":["Adapter","Adapter.","Asp","Asp."],"Ioc.Adapter":["Autofac"],"Ioc.Asp":["Net","Net."],"Ioc.Asp.Net":["Integration"],"Owin":["Security","Security."],"Owin.Security":["ADFS"],"Web":["OData","OData."],"Web.OData":["V3"],"_keys":["Data.","Ioc.","MvcMenus.","Owin.","Web."]}

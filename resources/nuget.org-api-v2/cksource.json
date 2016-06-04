@@ -1,0 +1,1 @@
+{"CKFinder":["Connector","Connector."],"CKFinder.Connector":["Config","Core","Host","Host.","KeyValue","KeyValue.","Logs","Logs.","Sample"],"CKFinder.Connector.Host":["Owin"],"CKFinder.Connector.KeyValue":["EntityFramework"],"CKFinder.Connector.Logs":["NLog"],"FileSystem":["Amazon","Azure","Dropbox","Local"],"_keys":["CKFinder.","FileSystem."]}

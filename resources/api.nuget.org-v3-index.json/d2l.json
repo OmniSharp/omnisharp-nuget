@@ -1,0 +1,1 @@
+{"Extensibility":["AuthSdk","AuthSdk."],"Security":["OAuth2","OAuth2."],"Security.OAuth2":["TestFramework","WebApi"],"Extensibility.AuthSdk":["Restsharp"],"Services":["Core","Core."],"Services.Core":["Activation","Configuration","Exceptions","Extensions","WebApi"],"_keys":["Extensibility.","Security.","Services."]}

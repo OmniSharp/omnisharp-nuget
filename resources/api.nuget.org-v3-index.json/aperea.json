@@ -1,0 +1,1 @@
+{"Bootstrap":["Logging","Mvc","WebApi"],"Data":["EntityFramework"],"_keys":["Bootstrap.","Common.","Data.","Identity."]}

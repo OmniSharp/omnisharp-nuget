@@ -1,0 +1,1 @@
+{"Auth":["BearerAuthentication","BearerAuthenticationCore"],"Patterns":["Dispose","IoC","Reactive"],"_keys":["Auth.","GenericRepository.","GenericService.","Patterns.","QueryMappings."]}

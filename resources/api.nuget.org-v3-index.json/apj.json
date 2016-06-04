@@ -1,0 +1,1 @@
+{"Components":["Data","Data.","Logging","Logging.","Security"],"Components.Data":["EntityFramework"],"Components.Logging":["NLog"],"Web":["Mvc"],"_keys":["Components.","Kernel.","Web."]}

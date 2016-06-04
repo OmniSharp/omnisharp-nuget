@@ -1,0 +1,1 @@
+{"Boot":["Aspnet","Aspnet.","Service","Test","Wcf"],"Boot.Aspnet":["Mvc","WebApi"],"Data":["EntityFramework"],"_keys":["Boot.","Cache.","Data.","FileSystem.","Mq.","NLog.","Rpc.","Unity.","Wcf."]}

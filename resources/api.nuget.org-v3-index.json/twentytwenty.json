@@ -1,0 +1,1 @@
+{"Storage":["Amazon","Azure","Google","Local"],"IdentityServer3":["AspNetIdentity3","EntityFramework7"],"IdentityServer4":["EntityFramework7","EntityFrameworkCore"],"_keys":["IdentityServer3.","IdentityServer4.","Storage."]}

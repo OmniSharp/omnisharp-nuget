@@ -1,0 +1,1 @@
+{"Core":["FunctionalTests"],"MicrosoftSqlServer":["Design"],"Relational":["Design","Design.","FunctionalTests"],"Relational.Design":["FunctionalTests"],"Sqlite":["Design"],"SqlServer":["Design"],"_keys":["AzureTableStorage.","Commands.","Core.","Design.","InMemory.","MicrosoftSqlServer.","Migrations.","Redis.","Relational.","SqlServer.","Sqlite."]}
